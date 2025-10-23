@@ -36,7 +36,7 @@ namespace EmployeeApplicationAPI.Controllers
 
             var producerConfig = new ProducerConfig()
             {
-                BootstrapServers = "localhost:9092",
+                BootstrapServers = "localhost:29092",
                 Acks = Acks.All
             };
 
